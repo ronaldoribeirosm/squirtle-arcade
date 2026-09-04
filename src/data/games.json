@@ -1,0 +1,602 @@
+[
+  {
+    "id": "elden-ring",
+    "title": "Elden Ring",
+    "tags": [
+      "Souls",
+      "RPG"
+    ],
+    "steamAppId": 1245620,
+    "metascore": 94,
+    "cover": "covers/elden-ring.jpg",
+    "matchedName": "ELDEN RING"
+  },
+  {
+    "id": "elden-ring-nightreign",
+    "title": "Elden Ring Nightreign",
+    "tags": [
+      "Souls",
+      "Co-op"
+    ],
+    "steamAppId": 2622380,
+    "metascore": null,
+    "cover": "covers/elden-ring-nightreign.jpg",
+    "matchedName": "ELDEN RING NIGHTREIGN"
+  },
+  {
+    "id": "dark-souls-remastered",
+    "title": "Dark Souls: Remastered",
+    "tags": [
+      "Souls",
+      "RPG"
+    ],
+    "steamAppId": 570940,
+    "metascore": 84,
+    "cover": "covers/dark-souls-remastered.jpg",
+    "matchedName": "DARK SOULS™: REMASTERED"
+  },
+  {
+    "id": "dark-souls-3",
+    "title": "Dark Souls III",
+    "tags": [
+      "Souls",
+      "RPG"
+    ],
+    "steamAppId": 374320,
+    "metascore": 89,
+    "cover": "covers/dark-souls-3.jpg",
+    "matchedName": "DARK SOULS™ III"
+  },
+  {
+    "id": "dark-souls-ptde",
+    "title": "Dark Souls: Prepare to Die",
+    "tags": [
+      "Souls",
+      "RPG"
+    ],
+    "steamAppId": null,
+    "metascore": null,
+    "cover": null,
+    "matchedName": null
+  },
+  {
+    "id": "sekiro",
+    "title": "Sekiro: Shadows Die Twice",
+    "tags": [
+      "Souls",
+      "Ação"
+    ],
+    "steamAppId": 814380,
+    "metascore": 88,
+    "cover": "covers/sekiro.jpg",
+    "matchedName": "Sekiro™: Shadows Die Twice - GOTY Edition"
+  },
+  {
+    "id": "wo-long",
+    "title": "Wo Long: Fallen Dynasty",
+    "tags": [
+      "Souls",
+      "Ação"
+    ],
+    "steamAppId": 1448440,
+    "metascore": 79,
+    "cover": "covers/wo-long.jpg",
+    "matchedName": "Wo Long: Fallen Dynasty"
+  },
+  {
+    "id": "peak",
+    "title": "PEAK",
+    "tags": [
+      "Co-op",
+      "Sobrevivência"
+    ],
+    "steamAppId": 3527290,
+    "metascore": null,
+    "cover": null,
+    "matchedName": "PEAK"
+  },
+  {
+    "id": "repo",
+    "title": "R.E.P.O.",
+    "tags": [
+      "Co-op",
+      "Terror"
+    ],
+    "steamAppId": 3241660,
+    "metascore": null,
+    "cover": "covers/repo.jpg",
+    "matchedName": "R.E.P.O."
+  },
+  {
+    "id": "buckshot-roulette",
+    "title": "Buckshot Roulette",
+    "tags": [
+      "Terror",
+      "Cartas"
+    ],
+    "steamAppId": 2835570,
+    "metascore": null,
+    "cover": "covers/buckshot-roulette.jpg",
+    "matchedName": "Buckshot Roulette"
+  },
+  {
+    "id": "liars-bar",
+    "title": "Liar's Bar",
+    "tags": [
+      "Co-op",
+      "Cartas"
+    ],
+    "steamAppId": 3097560,
+    "metascore": null,
+    "cover": "covers/liars-bar.jpg",
+    "matchedName": "Liar's Bar"
+  },
+  {
+    "id": "chained-together",
+    "title": "Chained Together",
+    "tags": [
+      "Co-op",
+      "Plataforma"
+    ],
+    "steamAppId": 2567870,
+    "metascore": null,
+    "cover": "covers/chained-together.jpg",
+    "matchedName": "Chained Together"
+  },
+  {
+    "id": "gang-beasts",
+    "title": "Gang Beasts",
+    "tags": [
+      "Party",
+      "Co-op"
+    ],
+    "steamAppId": 285900,
+    "metascore": null,
+    "cover": "covers/gang-beasts.jpg",
+    "matchedName": "Gang Beasts"
+  },
+  {
+    "id": "ultimate-chicken-horse",
+    "title": "Ultimate Chicken Horse",
+    "tags": [
+      "Party",
+      "Co-op"
+    ],
+    "steamAppId": 386940,
+    "metascore": null,
+    "cover": "covers/ultimate-chicken-horse.jpg",
+    "matchedName": "Ultimate Chicken Horse"
+  },
+  {
+    "id": "golf-with-your-friends",
+    "title": "Golf With Your Friends",
+    "tags": [
+      "Party",
+      "Co-op"
+    ],
+    "steamAppId": 431240,
+    "metascore": null,
+    "cover": "covers/golf-with-your-friends.jpg",
+    "matchedName": "Golf With Your Friends"
+  },
+  {
+    "id": "gamble-with-your-friends",
+    "title": "Gamble With Your Friends",
+    "tags": [
+      "Party",
+      "Cartas"
+    ],
+    "steamAppId": 3892270,
+    "metascore": null,
+    "cover": null,
+    "matchedName": "Gamble With Your Friends"
+  },
+  {
+    "id": "pico-park-2",
+    "title": "PICO PARK 2",
+    "tags": [
+      "Party",
+      "Co-op"
+    ],
+    "steamAppId": 2644470,
+    "metascore": null,
+    "cover": "covers/pico-park-2.jpg",
+    "matchedName": "PICO PARK 2"
+  },
+  {
+    "id": "human-fall-flat",
+    "title": "Human: Fall Flat",
+    "tags": [
+      "Party",
+      "Co-op"
+    ],
+    "steamAppId": 477160,
+    "metascore": 70,
+    "cover": "covers/human-fall-flat.jpg",
+    "matchedName": "Human Fall Flat"
+  },
+  {
+    "id": "you-suck-at-parking",
+    "title": "You Suck at Parking",
+    "tags": [
+      "Corrida",
+      "Party"
+    ],
+    "steamAppId": 837880,
+    "metascore": null,
+    "cover": "covers/you-suck-at-parking.jpg",
+    "matchedName": "You Suck at Parking® - Complete Edition"
+  },
+  {
+    "id": "super-battle-golf",
+    "title": "Super Battle Golf",
+    "tags": [
+      "Party",
+      "Esporte"
+    ],
+    "steamAppId": 4069520,
+    "metascore": null,
+    "cover": null,
+    "matchedName": "Super Battle Golf"
+  },
+  {
+    "id": "subnautica",
+    "title": "Subnautica",
+    "tags": [
+      "Sobrevivência",
+      "Aventura"
+    ],
+    "steamAppId": 1962700,
+    "metascore": null,
+    "cover": "covers/subnautica.jpg",
+    "matchedName": "Subnautica 2"
+  },
+  {
+    "id": "the-forest",
+    "title": "The Forest",
+    "tags": [
+      "Sobrevivência",
+      "Terror"
+    ],
+    "steamAppId": 242760,
+    "metascore": 83,
+    "cover": "covers/the-forest.jpg",
+    "matchedName": "The Forest"
+  },
+  {
+    "id": "palworld",
+    "title": "Palworld",
+    "tags": [
+      "Sobrevivência",
+      "Co-op"
+    ],
+    "steamAppId": 1623730,
+    "metascore": null,
+    "cover": "covers/palworld.jpg",
+    "matchedName": "Palworld"
+  },
+  {
+    "id": "satisfactory",
+    "title": "Satisfactory",
+    "tags": [
+      "Construção",
+      "Co-op"
+    ],
+    "steamAppId": 526870,
+    "metascore": 91,
+    "cover": "covers/satisfactory.jpg",
+    "matchedName": "Satisfactory"
+  },
+  {
+    "id": "the-planet-crafter",
+    "title": "The Planet Crafter",
+    "tags": [
+      "Sobrevivência",
+      "Construção"
+    ],
+    "steamAppId": 1284190,
+    "metascore": null,
+    "cover": "covers/the-planet-crafter.jpg",
+    "matchedName": "The Planet Crafter"
+  },
+  {
+    "id": "ranch-simulator",
+    "title": "Ranch Simulator",
+    "tags": [
+      "Simulação",
+      "Co-op"
+    ],
+    "steamAppId": 1119730,
+    "metascore": null,
+    "cover": "covers/ranch-simulator.jpg",
+    "matchedName": "Ranch Simulator: Build, Hunt, Farm"
+  },
+  {
+    "id": "state-of-decay-2",
+    "title": "State of Decay 2",
+    "tags": [
+      "Sobrevivência",
+      "Zumbi"
+    ],
+    "steamAppId": 495420,
+    "metascore": 69,
+    "cover": "covers/state-of-decay-2.jpg",
+    "matchedName": "State of Decay 2: Juggernaut Edition"
+  },
+  {
+    "id": "powerwash-simulator-2",
+    "title": "PowerWash Simulator 2",
+    "tags": [
+      "Simulação",
+      "Relax"
+    ],
+    "steamAppId": 2968420,
+    "metascore": null,
+    "cover": "covers/powerwash-simulator-2.jpg",
+    "matchedName": "PowerWash Simulator 2"
+  },
+  {
+    "id": "doom-eternal",
+    "title": "DOOM Eternal",
+    "tags": [
+      "FPS",
+      "Ação"
+    ],
+    "steamAppId": 782330,
+    "metascore": 88,
+    "cover": "covers/doom-eternal.jpg",
+    "matchedName": "DOOM Eternal"
+  },
+  {
+    "id": "tmnt-shredders-revenge",
+    "title": "TMNT: Shredder's Revenge",
+    "tags": [
+      "Beat'em up",
+      "Co-op"
+    ],
+    "steamAppId": 1361510,
+    "metascore": 84,
+    "cover": "covers/tmnt-shredders-revenge.jpg",
+    "matchedName": "Teenage Mutant Ninja Turtles: Shredder's Revenge"
+  },
+  {
+    "id": "sworn",
+    "title": "SWORN",
+    "tags": [
+      "Roguelike",
+      "Co-op"
+    ],
+    "steamAppId": 1763250,
+    "metascore": null,
+    "cover": "covers/sworn.jpg",
+    "matchedName": "SWORN"
+  },
+  {
+    "id": "neon-abyss-2",
+    "title": "Neon Abyss 2",
+    "tags": [
+      "Roguelike",
+      "Ação"
+    ],
+    "steamAppId": 2235200,
+    "metascore": null,
+    "cover": "covers/neon-abyss-2.jpg",
+    "matchedName": "Neon Abyss 2"
+  },
+  {
+    "id": "megabonk",
+    "title": "Megabonk",
+    "tags": [
+      "Roguelike",
+      "Ação"
+    ],
+    "steamAppId": 3405340,
+    "metascore": null,
+    "cover": "covers/megabonk.jpg",
+    "matchedName": "Megabonk"
+  },
+  {
+    "id": "the-quarry",
+    "title": "The Quarry",
+    "tags": [
+      "Terror",
+      "Narrativo"
+    ],
+    "steamAppId": 1577120,
+    "metascore": null,
+    "cover": "covers/the-quarry.jpg",
+    "matchedName": "The Quarry"
+  },
+  {
+    "id": "the-devourer",
+    "title": "The Devourer: Hunted Souls",
+    "tags": [
+      "Terror",
+      "Co-op"
+    ],
+    "steamAppId": 2309400,
+    "metascore": null,
+    "cover": "covers/the-devourer.jpg",
+    "matchedName": "The Devourer: Hunted Souls"
+  },
+  {
+    "id": "school-666",
+    "title": "School 666",
+    "tags": [
+      "Terror",
+      "Co-op"
+    ],
+    "steamAppId": 2802820,
+    "metascore": null,
+    "cover": "covers/school-666.jpg",
+    "matchedName": "School 666"
+  },
+  {
+    "id": "hospital-666",
+    "title": "Hospital 666",
+    "tags": [
+      "Terror",
+      "Co-op"
+    ],
+    "steamAppId": 2774380,
+    "metascore": null,
+    "cover": "covers/hospital-666.jpg",
+    "matchedName": "Hospital 666"
+  },
+  {
+    "id": "carry-the-glass",
+    "title": "Carry The Glass",
+    "tags": [
+      "Co-op",
+      "Plataforma"
+    ],
+    "steamAppId": 3263320,
+    "metascore": null,
+    "cover": "covers/carry-the-glass.jpg",
+    "matchedName": "Carry The Glass"
+  },
+  {
+    "id": "rv-there-yet",
+    "title": "RV There Yet?",
+    "tags": [
+      "Co-op",
+      "Aventura"
+    ],
+    "steamAppId": 3949040,
+    "metascore": null,
+    "cover": null,
+    "matchedName": "RV There Yet?"
+  },
+  {
+    "id": "big-walk",
+    "title": "Big Walk",
+    "tags": [
+      "Co-op",
+      "Aventura"
+    ],
+    "steamAppId": 1478500,
+    "metascore": 91,
+    "cover": "covers/big-walk.jpg",
+    "matchedName": "Big Walk"
+  },
+  {
+    "id": "drive-together",
+    "title": "Drive Together",
+    "tags": [
+      "Co-op",
+      "Corrida"
+    ],
+    "steamAppId": 4117320,
+    "metascore": null,
+    "cover": null,
+    "matchedName": "Drive Together"
+  },
+  {
+    "id": "die-together",
+    "title": "Die Together",
+    "tags": [
+      "Co-op",
+      "Terror"
+    ],
+    "steamAppId": 4317790,
+    "metascore": null,
+    "cover": null,
+    "matchedName": "Last Pirates: Die Together"
+  },
+  {
+    "id": "dragonsword-awakening",
+    "title": "DragonSword: Awakening",
+    "tags": [
+      "RPG",
+      "Ação"
+    ],
+    "steamAppId": 4570720,
+    "metascore": null,
+    "cover": null,
+    "matchedName": "DragonSword : Awakening"
+  },
+  {
+    "id": "terracards",
+    "title": "Terracards",
+    "tags": [
+      "Cartas",
+      "Estratégia"
+    ],
+    "steamAppId": 2464880,
+    "metascore": null,
+    "cover": "covers/terracards.jpg",
+    "matchedName": "Terracards"
+  },
+  {
+    "id": "no-time-to-relax",
+    "title": "No Time to Relax",
+    "tags": [
+      "Party",
+      "Simulação"
+    ],
+    "steamAppId": 829660,
+    "metascore": null,
+    "cover": "covers/no-time-to-relax.jpg",
+    "matchedName": "No Time to Relax"
+  },
+  {
+    "id": "the-game-of-life-2",
+    "title": "The Game of Life 2",
+    "tags": [
+      "Party",
+      "Tabuleiro"
+    ],
+    "steamAppId": 1455630,
+    "metascore": null,
+    "cover": "covers/the-game-of-life-2.jpg",
+    "matchedName": "THE GAME OF LIFE 2"
+  },
+  {
+    "id": "unrailed-2",
+    "title": "Unrailed 2",
+    "tags": [
+      "Co-op",
+      "Party"
+    ],
+    "steamAppId": 2211170,
+    "metascore": null,
+    "cover": "covers/unrailed-2.jpg",
+    "matchedName": "Unrailed 2: Back on Track"
+  },
+  {
+    "id": "forza-horizon-5",
+    "title": "Forza Horizon 5",
+    "tags": [
+      "Corrida",
+      "Mundo aberto"
+    ],
+    "steamAppId": 1551360,
+    "metascore": null,
+    "cover": "covers/forza-horizon-5.jpg",
+    "matchedName": "Forza Horizon 5"
+  },
+  {
+    "id": "hytale",
+    "title": "Hytale",
+    "tags": [
+      "Sandbox",
+      "Aventura"
+    ],
+    "steamAppId": null,
+    "metascore": null,
+    "cover": null,
+    "matchedName": null
+  },
+  {
+    "id": "zelda-botw",
+    "title": "Zelda: Breath of the Wild",
+    "tags": [
+      "Aventura",
+      "Mundo aberto"
+    ],
+    "steamAppId": null,
+    "metascore": null,
+    "cover": null,
+    "matchedName": null
+  }
+]
