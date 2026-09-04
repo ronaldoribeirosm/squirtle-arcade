@@ -9,7 +9,7 @@ Hub retro 8-bit da **Gangue dos Squirtles** pra organizar, avaliar e criar tier 
 - **Perfil** — estatísticas suas (zerados, nota média, tier favorito) e som 8-bit on/off.
 - **Multiplayer** — cada amigo tem um perfil; com o banco ligado, todo mundo vê as notas uns dos outros.
 
-Feito com **React + Vite** no front e **serverless functions (`/api`) + Upstash Redis** no back. Visual arcade noturno "hidro", fontes pixel, bordas duras 8-bit e efeitos sonoros gerados no navegador.
+Feito com **React + Vite** no front e **serverless functions (`/api`) + Vercel Blob** no back. Visual arcade noturno "hidro", fontes pixel, bordas duras 8-bit e efeitos sonoros gerados no navegador.
 
 ---
 
@@ -17,10 +17,10 @@ Feito com **React + Vite** no front e **serverless functions (`/api`) + Upstash 
 
 O app testa `GET /api/data` no boot:
 
-- **Respondeu JSON** → **modo compartilhado**: dados no Upstash Redis, sincroniza entre todo mundo (polling a cada 4s).
-- **Não respondeu** (sem banco / dev local) → **modo local**: dados no `localStorage` do navegador.
+- **Respondeu JSON** → **modo compartilhado**: estado guardado no **Vercel Blob** (`lib/blobdb.mjs`), sincroniza entre todo mundo (polling a cada 4s).
+- **Não respondeu** (sem token / dev local) → **modo local**: dados no `localStorage` do navegador.
 
-O mesmo build funciona nos dois casos e "sobe de nível" sozinho assim que o banco é conectado.
+O mesmo build funciona nos dois casos. O estado (`{ profiles, ratings }`) é gravado como arquivos JSON **imutáveis** (`state/<ts>-<rand>.json`) e a leitura pega o mais recente via `list()` — isso contorna a consistência eventual do Blob ao sobrescrever a mesma chave.
 
 ## Rodando localmente
 
@@ -35,11 +35,11 @@ Abre em `http://localhost:5173` (roda em **modo local**, sem precisar de banco).
 
 O projeto já está pronto pra Vercel (Vite + funções em `/api` + `vercel.json`).
 
-1. Deploy (feito via integração, ou `vercel --prod` com a CLI).
-2. **Conectar o banco** — no dashboard da Vercel do projeto: **Storage → Create Database → Upstash (Redis)** e conecte ao projeto. Isso injeta as variáveis `UPSTASH_REDIS_REST_URL` / `UPSTASH_REDIS_REST_TOKEN` (ou `KV_REST_API_*`, ambos são aceitos).
-3. **Redeploy** pra pegar as variáveis. Pronto: modo compartilhado ao vivo.
+1. `vercel --prod` (a CLI faz upload, builda e publica).
+2. **Banco (Vercel Blob):** `vercel blob create-store <nome> --access private --yes` cria o store, linka ao projeto e injeta o `BLOB_READ_WRITE_TOKEN`. Depois `vercel --prod` de novo pra o runtime pegar o token.
+3. Pronto: modo compartilhado ao vivo, sem página de pagamento.
 
-Rodar com banco no dev local: crie um `.env` com `UPSTASH_REDIS_REST_URL` e `UPSTASH_REDIS_REST_TOKEN` (o Vite não roda as `/api` — use `vercel dev` pra testar as funções localmente).
+Rodar com banco no dev local: `vercel env pull .env.local` traz o `BLOB_READ_WRITE_TOKEN`. O Vite não roda as `/api` — use `vercel dev` pra testar as funções localmente.
 
 ## Atualizando as capas dos jogos
 
